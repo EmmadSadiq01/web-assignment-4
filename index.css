@@ -1,0 +1,403 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:white;
+    font-family: "Roboto-new";
+    
+}
+
+/* ___________NAVBAR_______________ */
+.nav-link{
+    padding: 0px;
+}
+.top-nav-bar{
+    height : 57px;
+    background-image: linear-gradient(to bottom, #020202, #3a2e38,#000000);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.search-box h4{
+    color: white;
+    font-weight: bold;
+}
+
+.logo{
+    width: 55px;
+    height: 40px;
+    margin: 5px 10px
+}
+
+.search-box{
+    display: inline-flex;
+    width: 60%;
+    align-items: center;
+    
+}
+.search-box h4{
+    font-size: 1rem;
+    width: 226px;
+}
+input.form-control {
+    height: 38px;
+}
+
+
+.menu-bar{
+    width: 40%;
+    height: 57px;
+    float: right;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    float: right;
+}
+
+.menu-bar ul li{
+    border-left: 1px solid white;
+    list-style: none;
+    padding: 15px 16px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #020202, #3a2e38,#000000);
+    cursor: pointer;
+}
+
+.menu-bar ul li a{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.menu-bar li span{
+    padding-left: 10px;
+}
+.nav-link:active{
+    color: black;
+}
+a.dropdown-item {
+    color: black !important;
+}
+.dropdown-item:hover{
+    background-color: gray;
+    color: #d6a5a5 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+.menu-bar ul li:hover a{
+    color: #d6a5a5;
+    transition: all 0.5s ease-in-out;
+}
+
+
+a#navbarDropdown {
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-bar ul li a.active{
+    color: #d6a5a5;
+}
+
+@media only screen and (max-width: 1300px){
+    /* .top-nav-bar{
+        height: 118px;
+    } */
+    .menu-bar ul :nth-child(1){
+        border: none;
+    }
+    
+    .search-box{
+        margin-bottom: 0px;
+        width: 100%;
+        background-color: #130f0f;
+        
+    }
+    .menu-bar{
+        width: 100%;
+    }
+    .menu-bar ul{
+        width: 100% ;
+        margin: 10px 0px;
+        margin: 0px;
+        
+    }
+    .menu-bar ul li {
+        height: 57px;
+        width: 100%;
+    }
+    
+    .menu-bar ul li a{
+        font-size: 0.7rem;
+    }
+    .carousel-caption h3{
+        font-size: 1rem;
+        
+    }
+    .carousel-caption{
+        
+        margin: 5rem auto;
+    }
+    
+}
+
+
+@media only screen and (max-width:390px){
+    
+    .top-nav-bar{
+        height: 100px;
+    }
+    .row :nth-child(1),.row :nth-child(3){
+        border-left: none;
+    
+    }
+    .menu-bar ul{
+        width:100vw;
+    }
+    .menu-bar ul li {
+        padding: 5px 10px;
+        line-height: 46px;
+    }
+    .carousel-caption{
+    
+        margin: 80px auto;
+    }
+}
+/* _________NAVBAR END______________ */
+
+/* __________MODAL___________________ */
+.modal-header {
+    background-color: rgb(21, 8, 20);
+    color: #ccb1b1;
+
+  }
+
+  .modal-title {
+    font-family: Berlin Sans FB;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: auto;
+
+  }
+
+  .modal-header .close {
+    padding: 1rem;
+    margin: -2rem -1rem 0rem 0;
+  }
+  .modal-body .btn{
+    background-color: #3a3a65;
+    color: #ff9c9c;
+    border: 1px solid #30CFD0;
+    font-size: 30px;
+    width: 100%;
+    font-weight: bold;
+  }
+  .modal-body .btn:hover{
+    background-image: linear-gradient(to left,#07070a,#545454,#06061b);
+  }
+/* __________MODAL END________________ */
+
+/* _________CAROUSEL_________________ */
+.next-previous{
+    z-index: 1;
+}
+
+.movement:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 65%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 190px auto;
+    font-size: 12px;
+}
+.carousel-indicators{
+    z-index: 3;
+}
+
+
+/* ___________CAROUSEL END______________ */
+
+
+
+/* ___________ALBUMS_______________________ */
+.my-albums{
+    background-color: #ececec;
+    padding-top: 10px;
+    
+}
+.main_card{
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 1px #949494;
+    margin-bottom: 27px;
+    
+}
+.detail {
+    background-color: rgb(228, 201, 201);
+    padding: 10px 0px;
+    border-radius: 0px 0px 10px 10px;
+    color: rgb(109, 18, 77);
+}
+.detail p{
+    margin-bottom: 0px;
+}
+.price{
+    color: #ad2222;
+    font-size: 1.2rem;
+    font-family: 'Merriweather', serif;
+
+}
+.detail h5{
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: black;
+}
+.heading{
+    background-image: linear-gradient(to right, #afb915, #dc8a8a ,#d8d81c);
+    font-size: 1.5rem !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: -moz-linear-gradient(to right,black, cornsilk);
+    border-radius: 10px;
+    margin:20px 0px;
+    padding: 0px 10px;
+    height: 55px;
+    
+}
+.heading h3{
+    line-height: 55px;
+    font-size: 1.7rem;
+    color: #060606;
+    opacity: 0.8;
+}
+
+.card{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+}
+.card:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 220%;
+    background: rgba(49, 3, 3, 0.4);
+    top: -50%;
+    left: -100%;
+    z-index: 1;
+    transform-origin: center top 0;
+    transition: .5s;
+}
+.card:hover:before{
+    left: 0%;
+    
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    transition: 1s !important;
+    
+}
+.card img:hover{
+    transform: scale(1.09);
+}
+.card-text{
+    width: 100%;
+    padding: 0 20px;
+    top: -100%;
+    position: absolute;
+    color: white;
+    left: 0;
+    z-index: 2;
+    transition: 1.1s;
+}
+.card:hover .card-text{
+    top: 20%;
+}
+
+.btn{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+
+
+}
+
+/* __________ALBUMS END______________________ */
+
+/* __________FOOTER__________________________ */
+.footer{
+    background-color: rgb(21, 8, 20);
+    color: white;
+    padding: 40px 0px;
+}
+.footer h3{
+    color: #878787;
+    font-size: 12px;
+    margin-bottom: 9px;
+    padding: 0;
+}
+
+.box{
+    border-left: 1px solid white;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.row :nth-child(1){
+    border-left: none;
+}
+.footer ul li{
+    list-style: none;
+}
+
+.footer ul li a{
+    color: white;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 0;
+    padding-bottom: 4px;
+    text-decoration: none;
+}
+.footer ul li a:hover{
+    color: #878787;
+
+}
+.footer span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #3a3a65;
+    line-height: 50px;
+    transition: all 1s ease-in-out ;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.footer span i{
+    font-size: 24px;
+    color: white;
+
+}
+.footer span:hover{
+    transform: scale(1.2);
+    transform: rotate(360deg);
+}
+#social{
+    margin-bottom: 35px;
+}
+
+
+
+/* __________FOOTER END_______________________ */

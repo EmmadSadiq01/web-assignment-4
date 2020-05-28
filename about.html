@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>E-Telemart | about</title>
+    <link rel="icon" type="image/png" href="images/logo.png"/>
+
+    <!-- _____________bootstrap links____________ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- _____________bootstrap links end____________ -->
+
+    <!-- ______________font awesome _______________-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!-- ______________font links__________________ -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<style>
+    .card-img {
+        width: 207px;
+        height: 146px;
+        padding: 12px 0px;
+        margin: auto;
+        transition: all 1s ease-in-out;
+    }
+
+    .card-body h3 {
+        color: #072a48;
+        margin-bottom: 0px;
+    }
+
+    .card-img img {
+        object-fit: cover;
+        height: 80%;
+    }
+
+    .card-body {
+        padding-top: 0px;
+    }
+
+    .card-profile {
+        border-radius: 10px;
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 10px 2px #d6a5a5;
+        transition: all 0.6s ease-in-out;
+    }
+
+    .card-profile:hover {
+
+        background-color: #d6a5a5;
+    }
+
+    .card-profile:hover .card-body p {
+        color: #302c35;
+    }
+
+    .card-profile:hover .icons span {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .card-profile:hover .card-img {
+        transform: scale(1.1);
+        /* transition: all 1s ease-in-out; */
+    }
+
+    .icons span:hover i {
+        color: black;
+    }
+
+
+    .members {
+        margin-bottom: 95px;
+        margin-top: 40px;
+    }
+
+    .intro {
+        margin-top: 40px;
+
+    }
+
+    .members-heading h3 {
+        border-bottom: 2px solid #b9901c;
+        width: 50%;
+        margin: auto;
+        color: #072a48;
+        font-weight: bold;
+
+    }
+
+    .members-heading {
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: #6b4f4f;
+        margin-top: 30px;
+    }
+
+    .icons span {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-color: #d6a5a5;
+        line-height: 56px;
+        cursor: pointer;
+        border-radius: 30px;
+        transition: all 1s ease-in-out;
+
+    }
+
+    .icons span i {
+        transition: all 1s ease-in-out;
+        font-size: 24px;
+        color: white;
+    }
+</style>
+
+<body>
+    <div class="top-nav-bar container-fluid p-0">
+       
+        <a href="index.html" style="text-decoration: none;">
+        <div class="search-box">
+            <img src="images/logo.png" alt="" class="logo">
+            <h4 class="my-auto">E-TELEMART</h4>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </a>
+
+        <div class="menu-bar p-0">
+            <ul>
+                <li> <a href="index.html"> HOME </a></li>
+                <li> <a href="about.html" class="active">ABOUT</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MOBILES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="samsung.html">samsung</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">huawie</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">motorola</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">nokia</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">realme</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">redmi</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">infinix</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">techno</a>
+                    </div>
+                </li>
+                <li> <a href="#" data-toggle="modal" data-target="#sign_in">Account<span> <i
+                                class="fas fa-user-circle"></i> </span></a></li>
+                <li> <a href="">Cart <span><i class="fas fa-shopping-cart"></i></span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="modal fade" id="sign_in">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title text-center">SIGN IN</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="far fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Username or Email" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-lock"></i></span>
+                        </div>
+                        <input type="Password" class="form-control" placeholder="Password" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox"> Remember me
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign In</button>
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer justify-content-center">
+                    <div class="foot text-center ">
+                        <p>Don`t have an accout?</p>
+                        <a href="#" data-toggle="modal" data-target="#create_account">Creat an accout</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="create_account">
+        <div class="modal-dialog modal-lg ">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title text-center">SIGN UP</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                          <div class="col">
+                            <label for="fname ">First Name :</label>
+                            <input type="text" class="form-control" id="fname" placeholder="Enter first name" required name="fname">
+                          </div>
+                          <div class="col">
+                            <label for="sname">Second Name :</label>
+                            <input type="text" class="form-control" required placeholder="Enter Second name" name="sname">
+                          </div>
+                        </div>
+                        <div class="form-group" style="margin-top: 12px;">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" placeholder="Enter email" id="email" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" placeholder="Enter password" id="pwd" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="C_pwd">Confirm Password:</label>
+                            <input type="password" class="form-control" placeholder="Enter password" id="C_pwd" required>
+                          </div>
+                          <div class="form-group form-check">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="checkbox" name="remember" required> I agreed.
+                              <div class="valid-feedback">Valid.</div>
+                              <div class="invalid-feedback">Check this checkbox to continue.</div>
+                            </label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Sign Up</button>
+
+                        
+                         
+                      </form>
+               
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="intro container text-justify  ">
+        <div class="row justify-content-center ">
+            <div class="col justify-content-center">
+                <div class="members-heading">
+                    <h3 class="text-center">
+                        OUR MISSION
+                    </h3>
+                </div>
+                <div class="text">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ab laborum non ea assumenda
+                        eaque iusto in ipsum quasi! Porro dignissimos neque a commodi iusto possimus, doloremque
+                        nemo harum quisquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis aliquam
+                        architecto nostrum, placeat deleniti nulla natus suscipit facilis, itaque obcaecati, ex nesciunt
+                        corporis esse laborum sit illum officia quis reiciendis!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="members-heading">
+        <h3 class="text-center">
+            OUR TEAM
+        </h3>
+    </div>
+
+    <div class="members container">
+        <div class="row text-justify">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                <div class="card-profile">
+                    <div class="card-body">
+                        <div class="card-img  text-center">
+                            <img src="images/IMG_0039_1 copy.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+
+                        </div>
+                        <h3 class="text-center">M.EMMAD SADIQ</h3>
+                        <h6 class="text-center">(CEO)</h6>
+                        <p class="text">Some text inside the first card Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit. Aut eum velit labore qui nostrum amet fugiat dolore
+                            deleniti culpa mollitia placeat maxime fugit, eos corporis tenetur, illo nihil,
+                            delectus
+                            doloribus.</p>
+                        <div class="icons text-center">
+                            <span class="text-center"><a href=""><i class="fab fa-facebook-f"></i></a></span>
+                            <span class="text-center"><a href=""><i class="fab fa-instagram"></i></a></span>
+                            <span class="text-center"><a href=""><i class="fab fa-twitter"></i></a></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                <div class="card-profile">
+                    <div class="card-body">
+                        <div class="card-img  text-center">
+                            <img src="images/IMG_0079.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+
+                        </div>
+                        <h3 class="text-center">M.UMAID SADIQ</h3>
+                        <h6 class="text-center">(MANAGER)</h6>
+                        <p class="text">Some text inside the first card Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit. Aut eum velit labore qui nostrum amet fugiat dolore
+                            deleniti culpa mollitia placeat maxime fugit, eos corporis tenetur, illo nihil,
+                            delectus
+                            doloribus.</p>
+                        <div class="icons text-center">
+                            <span class="text-center"><a href=""><i class="fab fa-facebook-f"></i></a></span>
+                            <span class="text-center"><a href=""><i class="fab fa-instagram"></i></a></span>
+                            <span class="text-center"><a href=""><i class="fab fa-twitter"></i></a></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                <div class="card-profile">
+                    <div class="card-body">
+                        <div class="card-img  text-center">
+                            <img src="images/junaid.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+
+                        </div>
+                        <h3 class="text-center">M.JUNAID</h3>
+                        <h6 class="text-center">(HEAD)</h6>
+                        <p class="text">Some text inside the first card Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit. Aut eum velit labore qui nostrum amet fugiat dolore
+                            deleniti culpa mollitia placeat maxime fugit, eos corporis tenetur, illo nihil,
+                            delectus
+                            doloribus.</p>
+                        <div class="icons text-center">
+                            <span class="text-center"><a href=""><i class="fab fa-facebook-f"></i></a></span>
+                            <span class="text-center"><a href=""><i class="fab fa-instagram"></i></a></span>
+                            <span class="text-center"><a href=""><i class="fab fa-twitter"></i></a></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="box col-lg-3 col-md-3 col-sm-6 col-6">
+                    <div class="products">
+                        <h3>
+                            PRODUCTS
+                        </h3>
+                        <ul>
+                            <li><a href="">SAMSUNG</a></li>
+                            <li><a href="">HUAWEU</a></li>
+                            <li><a href="">VIVO</a></li>
+                            <li><a href="">REALME</a></li>
+                            <li><a href="">NOKIA</a></li>
+                            <li><a href="">REALME</a></li>
+                            <li><a href="">TECHNO</a></li>
+                            <li><a href="">MOTOROLA</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="box col-lg-3 col-md-3 col-sm-6 col-6">
+
+                    <!-- <div class="contact">
+                        <h3>
+                            CONTACT US
+                        </h3>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="basic-addon1"><i class="far fa-user"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="basic-addon1"><i class="far fa-envelope"></i></span>
+                            </div>
+                            <input type="email" class="form-control" placeholder="Email Address" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
+                          
+                          <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text"><i class="far fa-comment-dots"></i></span>
+                            </div>
+                            <textarea class="form-control" aria-label="With textarea" placeholder="Enter Your Message"></textarea>
+                          </div>
+                    </div> -->
+                    <div class="help">
+                        <h3>
+                            HELP
+                        </h3>
+                        <ul>
+                            <li> <a href="">Payments Information</a> </li>
+                            <li> <a href="">Shipping Information</a> </li>
+                            <li> <a href="">FAQ</a> </li>
+                            <li> <a href="">Telemart Outlets</a> </li>
+                            <li> <a href="">Telemart franchise programs</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box col-lg-3 col-md-3 col-sm-6 col-6">
+                    <div class="policy">
+                        <h3>
+                            POLICY
+                        </h3>
+                        <ul>
+                            <li><a href="">Return Policy</a> </li>
+                            <li><a href="">Terms & Conditions</a> </li>
+                            <li><a href="">Privacy</a> </li>
+                            <li><a href="">Warranty</a> </li>
+                            <li><a href="">Price Beating</a> </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="box col-lg-3 col-md-3 col-sm-6 col-6">
+                    <div class="social">
+                        <h3 id="social">
+                            SOCIAL
+                        </h3>
+                        <span class="text-center"><a href=""><i class="fab fa-facebook-f"></i></a></span>
+                        <span class="text-center"><a href=""><i class="fab fa-instagram"></i></a></span>
+                        <span class="text-center"><a href=""><i class="fab fa-twitter"></i></a></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
